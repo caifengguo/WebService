@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <schema targetNamespace="http://tempuri.org/ns.xsd"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="http://tempuri.org/ns.xsd"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <!-- operation request element -->
+  <element name="startModel">
+   <complexType>
+    <sequence>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="startModelResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:int" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__startModel::result -->
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation request element -->
+  <element name="endModel">
+   <complexType>
+    <sequence>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="endModelResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:int" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__endModel::result -->
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation request element -->
+  <element name="startBd">
+   <complexType>
+    <sequence>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="startBdResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:int" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__startBd::result -->
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation request element -->
+  <element name="endBd">
+   <complexType>
+    <sequence>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="endBdResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:int" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__endBd::result -->
+    </sequence>
+   </complexType>
+  </element>
+ </schema>
+
